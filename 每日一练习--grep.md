@@ -1,9 +1,11 @@
 # 介绍
-> `文本内容搜索`在文件或输出结果中查找指定的字符串或正则表达式。
+>
+> - `global regular expression print` 全局正则表达式搜索
+> - `文本内容搜索`在文件或输出结果中查找指定的字符串或正则表达式。
 
 # 基本用法
 
-```
+```shell
 # 在文件中搜索
 grep "hello" file.txt
 
@@ -22,7 +24,7 @@ grep -v "hello" file.txt
 
 # 高级用法
 
-````
+````shell
 # 匹配以abc开头的行
 grep "^abc" file.txt
 
@@ -36,7 +38,7 @@ grep "[0-9]" file.txt
 
 # 示例
 
-````
+````shell
 grep "linux" file.txt 
 linux 
 grep "hello" file.txt 
