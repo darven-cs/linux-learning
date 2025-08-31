@@ -1,1 +1,44 @@
-/home/darven/桌面/github-project/linux-learning/daily-practice-cal.md
+# cal 显示日历
+
+`cal calendar`
+
+`显示日历` 显示本月或指定日期的日历。
+
+## 基本用法
+```shell
+# 显示当前月份日历
+cal
+
+# 显示指定年份的日历
+cal 2023
+
+# 显示指定月份和年份的日历
+cal 12 2023
+```
+
+## 高级用法
+```shell
+# 显示当前年份的日历
+cal -y
+
+# 显示最近几年的日历
+cal -3
+
+# 以星期一作为一周的开始
+cal -m
+
+# 显示儒略日
+cal -j
+```
+
+## 示例
+```shell
+cal
+# 显示当前月份的日历
+
+cal 2023
+# 显示2023年全年日历
+
+cal 12 2023
+# 显示2023年12月的日历
+```

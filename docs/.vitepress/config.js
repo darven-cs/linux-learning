@@ -8,12 +8,12 @@ export default defineConfig({
   
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Basic Commands', link: '/daily-practice-ls.html' },
-      { text: 'File Processing', link: '/daily-practice-grep.html' },
-      { text: 'Permission Management', link: '/daily-practice-chmod.html' },
-      { text: 'System Information', link: '/daily-practice-ps.html' },
-      { text: 'Network Commands', link: '/daily-practice-ping.html' }
+      { text: '首页', link: '/' },
+      { text: '基础指令', link: '/daily-practice-ls.html' },
+      { text: '文件处理', link: '/daily-practice-grep.html' },
+      { text: '权限', link: '/daily-practice-chmod.html' },
+      { text: '系统信息', link: '/daily-practice-ps.html' },
+      { text: '网络指令', link: '/daily-practice-ping.html' }
     ],
     
     sidebar: [
@@ -91,7 +91,7 @@ export default defineConfig({
     ],
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username/linux-learning' }
+      { icon: 'github', link: 'https://github.com/Alfxue/linux-learning' }
     ]
   }
 })
