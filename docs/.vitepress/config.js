@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Linux Command Learning',
-  description: 'Daily practice Linux commands, practice makes perfect',
-  
+  title: 'Linux命令手册',
+  description: '每日练习Linux命令，熟能生巧',
+
   base: '/linux-learning/', // 根据你的仓库名称进行调整
-  
+
   themeConfig: {
     // 本地搜索
     search:{
@@ -16,14 +16,14 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '基础指令', link: '/daily-practice-ls.html' },
       { text: '文件处理', link: '/daily-practice-grep.html' },
-      { text: '权限', link: '/daily-practice-chmod.html' },
+      { text: '权限管理', link: '/daily-practice-chmod.html' },
       { text: '系统信息', link: '/daily-practice-ps.html' },
       { text: '网络指令', link: '/daily-practice-ping.html' }
     ],
-    
+
     sidebar: [
       {
-        text: 'Basic Commands',
+        text: '基础命令',
         items: [
           { text: 'ls', link: '/daily-practice-ls.html' },
           { text: 'cd', link: '/daily-practice-cd.html' },
@@ -39,7 +39,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'File Viewing and Processing',
+        text: '文件查看与处理',
         items: [
           { text: 'more', link: '/daily-practice-more.html' },
           { text: 'less', link: '/daily-practice-less.html' },
@@ -53,7 +53,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Permissions and Users',
+        text: '权限与用户',
         items: [
           { text: 'chmod', link: '/daily-practice-chmod.html' },
           { text: 'chown', link: '/daily-practice-chown.html' },
@@ -66,7 +66,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'System and Processes',
+        text: '系统与进程',
         items: [
           { text: 'ps', link: '/daily-practice-ps.html' },
           { text: 'top', link: '/daily-practice-top.html' },
@@ -81,7 +81,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Network Commands',
+        text: '网络命令',
         items: [
           { text: 'ping', link: '/daily-practice-ping.html' },
           { text: 'curl', link: '/daily-practice-curl.html' },
@@ -94,7 +94,7 @@ export default defineConfig({
         ]
       }
     ],
-    
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Alfxue/linux-learning' }
     ]
