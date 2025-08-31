@@ -1,32 +1,32 @@
 ---
 layout: home
 
-title: Linux Command Learning
-titleTemplate: Daily practice, practice makes perfect
+title: Linux命令学习
+titleTemplate: 每日练习，熟能生巧
 
 hero:
-  name: Linux Command Learning
-  text: Daily practice, practice makes perfect
-  tagline: Master Linux commands through practice
+  name: Linux命令学习
+  text: 每日练习，熟能生巧
+  tagline: 通过练习掌握Linux命令
   actions:
     - theme: brand
-      text: Get Started
+      text: 开始学习
       link: /README.html
     - theme: alt
-      text: View All Commands
+      text: 查看所有命令
       link: /README.html
 
 features:
-  - title: Basic Commands
-    details: Learn basic file and directory operations such as ls, cd, mkdir, etc.
-  - title: File Processing
-    details: Master file viewing and processing commands such as grep, find, sort, etc.
-  - title: System Management
-    details: Understand system information viewing and process management commands such as ps, top, kill, etc.
-  - title: Network Tools
-    details: Familiarize yourself with network-related commands such as ping, curl, ssh, etc.
-  - title: Permission Management
-    details: Understand and master Linux permission and user management commands
-  - title: Daily Practice
-    details: Practice one command per day to gradually improve your Linux skills
+  - title: 基础命令
+    details: 学习ls、cd、mkdir等基本文件和目录操作命令
+  - title: 文件处理
+    details: 掌握grep、find、sort等文件查看和处理命令
+  - title: 系统管理
+    details: 了解ps、top、kill等系统信息查看和进程管理命令
+  - title: 网络工具
+    details: 熟悉ping、curl、ssh等网络相关命令
+  - title: 权限管理
+    details: 理解并掌握Linux权限和用户管理命令
+  - title: 每日练习
+    details: 每天练习一个命令，逐步提升Linux技能
 ---
