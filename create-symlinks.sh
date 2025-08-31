@@ -20,13 +20,13 @@ fi
 # 删除现有的软链接（如果有的话）
 echo "Removing existing symlinks..."
 cd "$DOCS_DIR"
-rm -f 每日一练习--*.md
+rm -f daily-practice-*.md
 rm -f README.md
 
 # 为所有"每日一练习"的markdown文件创建软链接
 echo "Creating new symlinks..."
 cd "$SCRIPT_DIR"
-for file in 每日一练习--*.md; do
+for file in daily-practice-*.md; do
   if [ -f "$file" ]; then
     echo "Creating symlink for $file"
     ln -s "$SCRIPT_DIR/$file" "$DOCS_DIR/$file"

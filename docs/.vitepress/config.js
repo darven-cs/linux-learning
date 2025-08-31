@@ -1,97 +1,97 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Linux命令学习',
-  description: '每日练习Linux命令，熟能生巧',
+  title: 'Linux Command Learning',
+  description: 'Daily practice Linux commands, practice makes perfect',
   
   base: '/linux-learning/', // 根据你的仓库名称进行调整
   
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
-      { text: '基础命令', link: '/每日一练习--ls.html' },
-      { text: '文件处理', link: '/每日一练习--grep.html' },
-      { text: '权限管理', link: '/每日一练习--chmod.html' },
-      { text: '系统信息', link: '/每日一练习--ps.html' },
-      { text: '网络命令', link: '/每日一练习--ping.html' }
+      { text: 'Home', link: '/' },
+      { text: 'Basic Commands', link: '/daily-practice-ls.html' },
+      { text: 'File Processing', link: '/daily-practice-grep.html' },
+      { text: 'Permission Management', link: '/daily-practice-chmod.html' },
+      { text: 'System Information', link: '/daily-practice-ps.html' },
+      { text: 'Network Commands', link: '/daily-practice-ping.html' }
     ],
     
     sidebar: [
       {
-        text: '基础命令',
+        text: 'Basic Commands',
         items: [
-          { text: 'ls', link: '/每日一练习--ls.html' },
-          { text: 'cd', link: '/每日一练习--cd.html' },
-          { text: 'pwd', link: '/每日一练习--pwd.html' },
-          { text: 'echo', link: '/每日一练习--echo.html' },
-          { text: 'cat', link: '/每日一练习--cat.html' },
-          { text: 'touch', link: '/每日一练习--touch.html' },
-          { text: 'mkdir', link: '/每日一练习--mkdir.html' },
-          { text: 'rmdir', link: '/每日一练习--rmdir.html' },
-          { text: 'rm', link: '/每日一练习--rm.html' },
-          { text: 'cp', link: '/每日一练习--cp.html' },
-          { text: 'mv', link: '/每日一练习--mv.html' }
+          { text: 'ls', link: '/daily-practice-ls.html' },
+          { text: 'cd', link: '/daily-practice-cd.html' },
+          { text: 'pwd', link: '/daily-practice-pwd.html' },
+          { text: 'echo', link: '/daily-practice-echo.html' },
+          { text: 'cat', link: '/daily-practice-cat.html' },
+          { text: 'touch', link: '/daily-practice-touch.html' },
+          { text: 'mkdir', link: '/daily-practice-mkdir.html' },
+          { text: 'rmdir', link: '/daily-practice-rmdir.html' },
+          { text: 'rm', link: '/daily-practice-rm.html' },
+          { text: 'cp', link: '/daily-practice-cp.html' },
+          { text: 'mv', link: '/daily-practice-mv.html' }
         ]
       },
       {
-        text: '文件查看与处理',
+        text: 'File Viewing and Processing',
         items: [
-          { text: 'more', link: '/每日一练习--more.html' },
-          { text: 'less', link: '/每日一练习--less.html' },
-          { text: 'head', link: '/每日一练习--head.html' },
-          { text: 'tail', link: '/每日一练习--tail.html' },
-          { text: 'grep', link: '/每日一练习--grep.html' },
-          { text: 'find', link: '/每日一练习--find.html' },
-          { text: 'wc', link: '/每日一练习--wc.html' },
-          { text: 'sort', link: '/每日一练习--sort.html' },
-          { text: 'uniq', link: '/每日一练习--uniq.html' }
+          { text: 'more', link: '/daily-practice-more.html' },
+          { text: 'less', link: '/daily-practice-less.html' },
+          { text: 'head', link: '/daily-practice-head.html' },
+          { text: 'tail', link: '/daily-practice-tail.html' },
+          { text: 'grep', link: '/daily-practice-grep.html' },
+          { text: 'find', link: '/daily-practice-find.html' },
+          { text: 'wc', link: '/daily-practice-wc.html' },
+          { text: 'sort', link: '/daily-practice-sort.html' },
+          { text: 'uniq', link: '/daily-practice-uniq.html' }
         ]
       },
       {
-        text: '权限与用户',
+        text: 'Permissions and Users',
         items: [
-          { text: 'chmod', link: '/每日一练习--chmod.html' },
-          { text: 'chown', link: '/每日一练习--chown.html' },
-          { text: 'chgrp', link: '/每日一练习--chgrp.html' },
-          { text: 'who', link: '/每日一练习--who.html' },
-          { text: 'whoami', link: '/每日一练习--whoami.html' },
-          { text: 'su', link: '/每日一练习--su.html' },
-          { text: 'sudo', link: '/每日一练习--sudo.html' },
-          { text: 'passwd', link: '/每日一练习--passwd.html' }
+          { text: 'chmod', link: '/daily-practice-chmod.html' },
+          { text: 'chown', link: '/daily-practice-chown.html' },
+          { text: 'chgrp', link: '/daily-practice-chgrp.html' },
+          { text: 'who', link: '/daily-practice-who.html' },
+          { text: 'whoami', link: '/daily-practice-whoami.html' },
+          { text: 'su', link: '/daily-practice-su.html' },
+          { text: 'sudo', link: '/daily-practice-sudo.html' },
+          { text: 'passwd', link: '/daily-practice-passwd.html' }
         ]
       },
       {
-        text: '系统与进程',
+        text: 'System and Processes',
         items: [
-          { text: 'ps', link: '/每日一练习--ps.html' },
-          { text: 'top', link: '/每日一练习--top.html' },
-          { text: 'kill', link: '/每日一练习--kill.html' },
-          { text: 'df', link: '/每日一练习--df.html' },
-          { text: 'du', link: '/每日一练习--du.html' },
-          { text: 'free', link: '/每日一练习--free.html' },
-          { text: 'uptime', link: '/每日一练习--uptime.html' },
-          { text: 'uname', link: '/每日一练习--uname.html' },
-          { text: 'date', link: '/每日一练习--date.html' },
-          { text: 'cal', link: '/每日一练习--cal.html' }
+          { text: 'ps', link: '/daily-practice-ps.html' },
+          { text: 'top', link: '/daily-practice-top.html' },
+          { text: 'kill', link: '/daily-practice-kill.html' },
+          { text: 'df', link: '/daily-practice-df.html' },
+          { text: 'du', link: '/daily-practice-du.html' },
+          { text: 'free', link: '/daily-practice-free.html' },
+          { text: 'uptime', link: '/daily-practice-uptime.html' },
+          { text: 'uname', link: '/daily-practice-uname.html' },
+          { text: 'date', link: '/daily-practice-date.html' },
+          { text: 'cal', link: '/daily-practice-cal.html' }
         ]
       },
       {
-        text: '网络命令',
+        text: 'Network Commands',
         items: [
-          { text: 'ping', link: '/每日一练习--ping.html' },
-          { text: 'curl', link: '/每日一练习--curl.html' },
-          { text: 'wget', link: '/每日一练习--wget.html' },
-          { text: 'ssh', link: '/每日一练习--ssh.html' },
-          { text: 'scp', link: '/每日一练习--scp.html' },
-          { text: 'ftp', link: '/每日一练习--ftp.html' },
-          { text: 'netstat', link: '/每日一练习--netstat.html' },
-          { text: 'ifconfig', link: '/每日一练习--ifconfig.html' }
+          { text: 'ping', link: '/daily-practice-ping.html' },
+          { text: 'curl', link: '/daily-practice-curl.html' },
+          { text: 'wget', link: '/daily-practice-wget.html' },
+          { text: 'ssh', link: '/daily-practice-ssh.html' },
+          { text: 'scp', link: '/daily-practice-scp.html' },
+          { text: 'ftp', link: '/daily-practice-ftp.html' },
+          { text: 'netstat', link: '/daily-practice-netstat.html' },
+          { text: 'ifconfig', link: '/daily-practice-ifconfig.html' }
         ]
       }
     ],
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Alfxue/linux-learning' }
+      { icon: 'github', link: 'https://github.com/your-username/linux-learning' }
     ]
   }
 })
