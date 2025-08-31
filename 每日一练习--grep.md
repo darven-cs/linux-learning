@@ -1,46 +1,47 @@
-# 介绍
->
-> - `global regular expression print` 全局正则表达式搜索
-> - `文本内容搜索`在文件或输出结果中查找指定的字符串或正则表达式。
+# grep 搜索文本
 
-# 基本用法
+`grep global regular expression print`
 
+`全局正则表达式搜索` 在文件中搜索指定的文本模式。
+
+## 基本用法
 ```shell
-# 在文件中搜索
-grep "hello" file.txt
+# 在文件中搜索指定文本
+grep "pattern" filename
 
 # 忽略大小写搜索
-grep -i "hello" file.txt
+grep -i "pattern" filename
 
 # 显示行号
-grep -n "hello" file.txt
+grep -n "pattern" filename
 
-# 统计匹配的次数
-grep -c "hello" file.txt
-
-# 显示不包含匹配的行
-grep -v "hello" file.txt
+# 反向搜索（显示不匹配的行）
+grep -v "pattern" filename
 ```
 
-# 高级用法
+## 高级用法
+```shell
+# 递归搜索目录中的所有文件
+grep -r "pattern" directory/
 
-````shell
-# 匹配以abc开头的行
-grep "^abc" file.txt
+# 只显示匹配的文件名
+grep -l "pattern" *
 
-# 匹配以xyz结尾的行
-grep "xyz$" file.txt
+# 使用正则表达式
+grep "^start" filename
 
-# 匹配包含数字的行
-grep "[0-9]" file.txt
+# 显示匹配行的前后几行
+grep -A 3 -B 2 "pattern" filename
+```
 
-````
+## 示例
+```shell
+grep "error" /var/log/syslog
+# 在syslog中搜索包含"error"的行
 
-# 示例
+grep -i "root" /etc/passwd
+# 在passwd文件中忽略大小写搜索"root"
 
-````shell
-grep "linux" file.txt 
-linux 
-grep "hello" file.txt 
-hello wolrd 
-````
+grep -r "function_name" /home/user/project/
+# 在项目目录中递归搜索"function_name"
+```

@@ -1,10 +1,10 @@
-# 介绍
+# echo 输出字符串
 
-`echo 回声`
+`echo echo（回声）`
 
 `输出字符串/变量` 将文本或变量的值打印到标准输出（终端）。
 
-# 基本用法
+## 基本用法
 ```shell
 # 输出字符串
 echo "Hello World"
@@ -21,7 +21,7 @@ echo " World"
 echo -e "Line1\nLine2\tTabbed"
 ```
 
-# 高级用法
+## 高级用法
 ```shell
 # 输出重定向到文件（覆盖）
 echo "This is a test" > output.txt
@@ -36,7 +36,7 @@ echo "Today is $(date)"
 echo $PATH
 ```
 
-# 示例
+## 示例
 ```shell
 echo "linux"
 linux
