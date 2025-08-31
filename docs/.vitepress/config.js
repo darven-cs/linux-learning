@@ -7,6 +7,11 @@ export default defineConfig({
   base: '/linux-learning/', // 根据你的仓库名称进行调整
   
   themeConfig: {
+    // 本地搜索
+    search:{
+      provider: 'local'
+    },
+
     nav: [
       { text: '首页', link: '/' },
       { text: '基础指令', link: '/daily-practice-ls.html' },
