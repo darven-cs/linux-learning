@@ -92,6 +92,12 @@ export default defineConfig({
           { text: 'netstat', link: '/daily-practice-netstat.html' },
           { text: 'ifconfig', link: '/daily-practice-ifconfig.html' }
         ]
+      },
+      {
+        text:'工具',
+        items:[
+          {text: 'tar',link: "/daily-practice-tar.html"}
+        ]
       }
     ],
 

@@ -27,6 +27,6 @@ features:
     details: 熟悉ping、curl、ssh等网络相关命令
   - title: 权限管理
     details: 理解并掌握Linux权限和用户管理命令
-  - title: 每日练习
-    details: 每天练习一个命令，逐步提升Linux技能
+  - title: 工具
+    details: Linux内置工具，熟悉tar、zip、unzip等常用工具
 ---

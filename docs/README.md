@@ -73,3 +73,8 @@
 | **ftp**         | file transfer protocol | 文件传输    | [ftp](./daily-practice-ftp.md) |
 | **netstat**     | network statistics     | 网络状态    | [netstat](./daily-practice-netstat.md) |
 | **ifconfig/ip** | interface config       | 网络接口配置  | [ifconfig](./daily-practice-ifconfig.md) |
+
+## 工具
+| 命令              | 英文含义                   | 功能      | 链接 |
+| --------------- | ---------------------- | ------- | --- |
+| **tar**         | tape archive            | 压缩和解压缩文件 | [tar](./daily-practice-tar.md) |
