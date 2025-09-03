@@ -1,6 +1,9 @@
 # 描述
 用于学习linux指令，主打就是熟能生巧，了解每个指令作用
 
+# 网页
+https://alfxue.github.io/linux-learning/
+
 # 指南
 
 ## 基础指令
