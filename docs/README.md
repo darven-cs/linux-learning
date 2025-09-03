@@ -66,16 +66,17 @@ https://alfxue.github.io/linux-learning/
 
 ## 网络
 
-| 命令              | 英文含义                   | 功能      | 链接 |
-| --------------- | ---------------------- | ------- | --- |
-| **ping**        | ping（声纳）               | 测试网络连通性 | [ping](./daily-practice-ping.md) |
-| **curl**        | client URL             | 发送网络请求  | [curl](./daily-practice-curl.md) |
-| **wget**        | web get                | 下载文件    | [wget](./daily-practice-wget.md) |
-| **ssh**         | secure shell           | 远程登录    | [ssh](./daily-practice-ssh.md) |
-| **scp**         | secure copy            | 远程拷贝    | [scp](./daily-practice-scp.md) |
-| **ftp**         | file transfer protocol | 文件传输    | [ftp](./daily-practice-ftp.md) |
-| **netstat**     | network statistics     | 网络状态    | [netstat](./daily-practice-netstat.md) |
+| 命令              | 英文含义                   | 功能      | 链接                                       |
+|-----------------|------------------------|---------|------------------------------------------|
+| **ping**        | ping（声纳）               | 测试网络连通性 | [ping](./daily-practice-ping.md)         |
+| **curl**        | client URL             | 发送网络请求  | [curl](./daily-practice-curl.md)         |
+| **wget**        | web get                | 下载文件    | [wget](./daily-practice-wget.md)         |
+| **ssh**         | secure shell           | 远程登录    | [ssh](./daily-practice-ssh.md)           |
+| **scp**         | secure copy            | 远程拷贝    | [scp](./daily-practice-scp.md)           |
+| **ftp**         | file transfer protocol | 文件传输    | [ftp](./daily-practice-ftp.md)           |
+| **netstat**     | network statistics     | 网络状态    | [netstat](./daily-practice-netstat.md)   |
 | **ifconfig/ip** | interface config       | 网络接口配置  | [ifconfig](./daily-practice-ifconfig.md) |
+| **ip**          | ip                     | 网络管理    | [ip](./daily-practice-ip.md)             |
 
 ## 工具
 | 命令              | 英文含义                   | 功能      | 链接 |
