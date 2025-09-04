@@ -51,18 +51,19 @@ https://alfxue.github.io/linux-learning/
 
 ## 系统与进程
 
-| 命令         | 英文含义           | 功能       | 链接 |
-| ---------- | -------------- | -------- | --- |
-| **ps**     | process status | 查看进程     | [ps](./daily-practice-ps.md) |
-| **top**    | top（顶部）        | 动态显示进程   | [top](./daily-practice-top.md) |
-| **kill**   | kill（杀死）       | 终止进程     | [kill](./daily-practice-kill.md) |
-| **df**     | disk free      | 查看磁盘空间   | [df](./daily-practice-df.md) |
-| **du**     | disk usage     | 查看磁盘占用   | [du](./daily-practice-du.md) |
-| **free**   | free（空闲）       | 查看内存使用情况 | [free](./daily-practice-free.md) |
-| **uptime** | uptime（运行时间）   | 系统运行时长   | [uptime](./daily-practice-uptime.md) |
-| **uname**  | unix name      | 显示系统信息   | [uname](./daily-practice-uname.md) |
-| **date**   | date（日期）       | 显示时间日期   | [date](./daily-practice-date.md) |
-| **cal**    | calendar       | 显示日历     | [cal](./daily-practice-cal.md) |
+| 命令            | 英文含义           | 功能       | 链接                                   |
+|---------------|----------------|----------|--------------------------------------|
+| **ps**        | process status | 查看进程     | [ps](./daily-practice-ps.md)         |
+| **top**       | top（顶部）        | 动态显示进程   | [top](./daily-practice-top.md)       |
+| **kill**      | kill（杀死）       | 终止进程     | [kill](./daily-practice-kill.md)     |
+| **df**        | disk free      | 查看磁盘空间   | [df](./daily-practice-df.md)         |
+| **du**        | disk usage     | 查看磁盘占用   | [du](./daily-practice-du.md)         |
+| **free**      | free（空闲）       | 查看内存使用情况 | [free](./daily-practice-free.md)     |
+| **uptime**    | uptime（运行时间）   | 系统运行时长   | [uptime](./daily-practice-uptime.md) |
+| **uname**     | unix name      | 显示系统信息   | [uname](./daily-practice-uname.md)   |
+| **date**      | date（日期）       | 显示时间日期   | [date](./daily-practice-date.md)     |
+| **cal**       | calendar       | 显示日历     | [cal](./daily-practice-cal.md)       |
+| **systemctl** | system control | 系统操作     | [cal](./daily-practice-systemctl.md) |
 
 ## 网络
 
