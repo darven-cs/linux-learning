@@ -83,3 +83,4 @@ https://darven-cs.github.io/linux-learning/
 | 命令              | 英文含义                   | 功能      | 链接 |
 | --------------- | ---------------------- | ------- | --- |
 | **tar**         | tape archive            | 压缩和解压缩文件 | [tar](./daily-practice-tar.md) |
+| **screen** | screen      | 终端会话管理        | [screen](./daily-practice-screen.md)  |
